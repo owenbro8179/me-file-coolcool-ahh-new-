@@ -1,4 +1,4 @@
-* {
+ {
   box-sizing: border-box;
 }
 body {
@@ -35,7 +35,23 @@ footer {
   background: #9b9c9e;
   font-size: 0.9rem;
 }
+a{
+  text-decoration: none;
+}
 a:hover {
-  text-decoration:underline;
-  text-color:#595b5a;
+  text-decoration: underline;
+  text-color:#13d574;
+}
+blockquote{
+  background-color: rgb(238, 177, 64)
+  ;
+  font-style: italic;
+  border-left: black ;
+  border-radius: 10px;
+  border-left: rgb(133, 88, 6);
+}
+img{
+max-width: 100%;
+border-radius: 8px;
+
 }
